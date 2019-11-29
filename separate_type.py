@@ -4,9 +4,9 @@ ints = []
 
 
 for data in list:
-    if data == str:
+    if type(data) == str:
         strings.append(data)
-    if data == int:
+    if type(data) == int:
         ints.append(data)
 
 print(ints)

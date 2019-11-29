@@ -118,7 +118,7 @@ while pikachu_hp > 0 or enemy_hp > 0:
                 break
             damage = int(chosen_attack_damage * enemy_defense / 145)
             enemy_hp -= damage
-            print("Pikachu Trumoi kolpea erbili du!")
+            print("Pikachuk Trumoi kolpea erbili du!")
             if enemy == "Charmander" or "Bulbasaur":
                 print("Arerioa, {}rek {} hp puntu ditu!\n".format(enemy, enemy_hp))
             else:
